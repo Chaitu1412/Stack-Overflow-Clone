@@ -71,7 +71,7 @@ const QuestionsDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = 'https://main--tangerine-croquembouche-95fe85.netlify.app'
+    const url = 'https://stack-overflow-by-vamsi.netlify.app/'
 
     const handlePostAns = (e, answerLength) =>{
         e.preventDefault()
